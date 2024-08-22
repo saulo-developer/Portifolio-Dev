@@ -20,10 +20,20 @@
 --gray-500:#C0C4CE;
 --gray-600: #E2E4E9;
 
+--font-family: "Asap", sans-serif;
+--text-lg: bold 32px/125% var(--font-family);
+--text: 16px/1.4 (--font-family);
+--text-md: 24px/120% var(--font-family);
+--text-sm: 16px/120% var(--font-family);
+
 }
 
-body {
 
+body {
+font: var(--text-lg);
 color: var();
 background-color: ;
 }
+
+
+
