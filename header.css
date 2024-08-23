@@ -1,0 +1,51 @@
+
+.grid-template-rows {
+    display: grid;
+    grid-template-rows: auto; /* Garante que os elementos sejam empilhados verticalmente */
+    gap: 20px; /* Espaçamento entre os elementos */
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+   
+}
+
+header {
+    display: grid;
+    grid-template-rows: auto; /* Empilha os elementos do header verticalmente */
+    justify-items: center; /* Centraliza os itens horizontalmente */
+    text-align: center;
+    
+}
+
+.normal-text {
+    font-size: 20px;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 400;   
+    line-height: 120%;
+    text-align: center;
+    
+}
+
+.colorful {
+
+color:#E3646E;
+
+
+}
+
+.centered {
+
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    text-align: center;
+    
+
+}
+
+
+
+/
