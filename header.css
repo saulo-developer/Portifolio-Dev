@@ -1,4 +1,10 @@
 
+body {
+
+    background-image: url(./assets/images/Intro.png);
+}
+
+
 .grid-template-rows {
     display: grid;
     grid-template-rows: auto; /* Garante que os elementos sejam empilhados verticalmente */
@@ -6,9 +12,11 @@
     padding: 20px;
     max-width: 600px;
     margin: 0 auto;
-    margin-top: 10%;
+    margin-top: 5%;
    
 }
+   
+
 
 
 
@@ -22,27 +30,52 @@ header {
 
 img {
     margin-bottom: 56px;
+    
 }
+ 
 
-.normal-text {
+
+
+
+.intro {
     font-size: 20px;
     font-family: 'Inconsolata';
     font-style: normal;
     font-weight: 400;   
     line-height: 120%;
     text-align: center;
+    color: #C0C4CE;
    
     
 }
 
-.normal-text-two {
+.bold {
  
     white-space: nowrap;
     margin-top: 1%;
     margin-bottom: 4%;
+    color:#E2E4E9;
     
 
 }
+
+
+.description {
+
+    font-size: 15px;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 400;   
+    line-height: 120%;
+    text-align: center;
+    color: #c0c4ce;
+    text-align: justify; 
+    width: 100%
+    
+
+
+}
+
 
 .colorful {
 
