@@ -28,11 +28,22 @@ header {
     
 }
 
-img {
+.icon-one {
     margin-bottom: 56px;
+
     
 }
- 
+
+.icon-two {
+
+    margin-bottom: 56px;
+    margin-left: -50px;
+    margin-right: 50px;
+
+
+
+
+}
 
 
 
