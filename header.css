@@ -28,9 +28,11 @@ header {
     
 }
 
+
+
 .icon-one {
     margin-bottom: 56px;
-
+    
     
 }
 
@@ -39,9 +41,7 @@ header {
     margin-bottom: 56px;
     margin-left: -50px;
     margin-right: 50px;
-
-
-
+    
 
 }
 
@@ -81,7 +81,9 @@ header {
     text-align: center;
     color: #c0c4ce;
     text-align: justify; 
-    width: 100%
+    width: 88%;
+    margin-left: 43px;
+   
     
 
 
@@ -102,10 +104,27 @@ color:#E3646E;
     font-weight: 700;
     font-size: 56px;
     line-height: 120%;
-    
-    
 
 }
 
 
+.container {
 
+
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Cria 6 colunas iguais */
+    gap: 10px; /* Espaçamento entre as imagens */
+}
+.tag {
+
+
+    display: grid;
+  grid-template-columns: repeat(6, 1fr); /* Cria 6 colunas iguais */
+  gap: 10px; /* Espaçamento entre as imagens */
+}
+
+
+.vector-tag {
+    margin-top: 100px;
+}
