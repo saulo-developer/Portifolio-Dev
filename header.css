@@ -13,6 +13,7 @@ body {
     max-width: 600px;
     margin: 0 auto;
     margin-top: 5%;
+    margin-right: 700px;
    
 }
    
@@ -28,6 +29,11 @@ header {
     
 }
 
+.icons {
+
+
+    margin-left: 50px;
+}
 
 
 .icon-one {
@@ -72,22 +78,17 @@ header {
 
 
 .description {
-
     font-size: 15px;
     font-family: 'Inconsolata';
     font-style: normal;
-    font-weight: 400;   
-    line-height: 120%;
-    text-align: center;
+    font-weight: 400;
+    line-height: 15px; /* Espaçamento entre linhas igual ao tamanho da fonte */
     color: #c0c4ce;
-    text-align: justify; 
-    width: 88%;
-    margin-left: 43px;
-   
-    
-
-
+    margin: 0; /* Remove todas as margens */
+    display: inline; /* Exibe o parágrafo como inline */
+    width: 700px;
 }
+
 
 
 .colorful {
@@ -109,22 +110,66 @@ color:#E3646E;
 
 
 .container {
-
-
-    margin-top: 70px;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr); /* Cria 6 colunas iguais */
-    gap: 10px; /* Espaçamento entre as imagens */
+    display: flex; /* Exibe os ícones em linha, lado a lado */
+    gap: 10px; /* Espaçamento entre os ícones */
+    justify-content: center; 
+    margin-top: 80px;
 }
-.tag {
 
-
-    display: grid;
-  grid-template-columns: repeat(6, 1fr); /* Cria 6 colunas iguais */
-  gap: 10px; /* Espaçamento entre as imagens */
-}
 
 
 .vector-tag {
     margin-top: 100px;
 }
+
+
+
+
+.intro-two {
+
+    margin-top: 90px;
+    background-image: url('assets/images/Projects.png');
+    background-size: cover;    /* Faz com que a imagem cubra todo o elemento */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    padding: 20px;            /* Espaçamento interno, se necessário */
+    margin-top: 90px;
+    
+}
+
+.title-one {
+ 
+width: 1040px;
+height: 24px;
+font-family: 'Inconsolata';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+text-align: center;
+color: #E3646E;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.title-two {
+
+width: 1040px;
+height: 29px;
+font-family: 'Asap';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+text-align: center;
+color: #E2E4E9;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
