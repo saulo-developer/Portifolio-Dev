@@ -173,3 +173,19 @@ flex-grow: 0;
 
 }
 
+.container-two {
+    display: flex;                   /* Exibe as imagens em linha, lado a lado */
+    flex-wrap: wrap;                 /* Permite que as imagens quebrem para a linha seguinte se necessário */
+    justify-content: center;         /* Centraliza as imagens dentro da seção */
+    gap: 10px;                       /* Espaçamento entre as imagens */
+    padding: 20px;                   /* Espaçamento interno da seção */
+    background-image: url('assets/images/Projects.png'); /* Caminho para a imagem de fundo */
+    background-size: cover;          /* Faz com que a imagem cubra todo o elemento */
+    background-position: center;     /* Centraliza a imagem dentro do elemento */
+    background-repeat: no-repeat;    /* Evita a repetição da imagem */
+    margin-right: -90px;
+}
+
+.project-card {
+   
+}
