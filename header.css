@@ -6,6 +6,7 @@ body {
 
 
 .grid-template-rows {
+    
     display: grid;
     grid-template-rows: auto; /* Garante que os elementos sejam empilhados verticalmente */
     gap: 20px; /* Espaçamento entre os elementos */
@@ -15,17 +16,16 @@ body {
     margin-top: 5%;
     margin-right: 700px;
    
+   
 }
    
-
-
-
 
 header {
     display: grid;
     grid-template-rows: auto; /* Empilha os elementos do header verticalmente */
     justify-items: center; /* Centraliza os itens horizontalmente */
     text-align: center;
+    
     
 }
 
@@ -55,38 +55,63 @@ header {
 
 
 .intro {
-    font-size: 20px;
-    font-family: 'Inconsolata';
-    font-style: normal;
-    font-weight: 400;   
-    line-height: 120%;
-    text-align: center;
-    color: #C0C4CE;
-   
+/* Hello World! Meu nome é Martina Santos e sou */
+
+width: 680px;
+height: 24px;
+font-family: 'Inconsolata';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+text-align: center;
+color: #C0C4CE;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
     
 }
 
 .bold {
  
-    white-space: nowrap;
-    margin-top: 1%;
-    margin-bottom: 4%;
-    color:#E2E4E9;
-    
+/* Desenvolvedora Fullstack */
+
+width: 680px;
+height: 67px;
+font-family: 'Asap';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 120%;
+text-align: center;
+color: #E2E4E9;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
 
 }
 
 
 .description {
-    font-size: 15px;
-    font-family: 'Inconsolata';
-    font-style: normal;
-    font-weight: 400;
-    line-height: 15px; /* Espaçamento entre linhas igual ao tamanho da fonte */
-    color: #c0c4ce;
-    margin: 0; /* Remove todas as margens */
-    display: inline; /* Exibe o parágrafo como inline */
-    width: 700px;
+ /* Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos. */
+
+width: 680px;
+height: 40px;
+font-family: 'Maven Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+text-align: center;
+color: #878EA1;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
 }
 
 
@@ -109,17 +134,12 @@ color:#E3646E;
 }
 
 
-.container {
-    display: flex; /* Exibe os ícones em linha, lado a lado */
-    gap: 10px; /* Espaçamento entre os ícones */
-    justify-content: center; 
-    margin-top: 80px;
-}
 
 
 
 .vector-tag {
     margin-top: 100px;
+    margin-left: 525px;
 }
 
 
@@ -128,15 +148,23 @@ color:#E3646E;
 .intro-two {
 
     margin-top: 90px;
-    background-image: url('assets/images/Projects.png');
-    background-size: cover;    /* Faz com que a imagem cubra todo o elemento */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Evita a repetição da imagem */
     padding: 20px;            /* Espaçamento interno, se necessário */
     margin-top: 90px;
     
 }
 
+
+.intro-three {
+
+    margin-top: 90px;
+    padding: 20px;            /* Espaçamento interno, se necessário */
+    margin-top: 90px;
+    
+
+
+
+    
+}
 .title-one {
  
 width: 1040px;
@@ -173,19 +201,42 @@ flex-grow: 0;
 
 }
 
-.container-two {
-    display: flex;                   /* Exibe as imagens em linha, lado a lado */
-    flex-wrap: wrap;                 /* Permite que as imagens quebrem para a linha seguinte se necessário */
-    justify-content: center;         /* Centraliza as imagens dentro da seção */
-    gap: 10px;                       /* Espaçamento entre as imagens */
-    padding: 20px;                   /* Espaçamento interno da seção */
-    background-image: url('assets/images/Projects.png'); /* Caminho para a imagem de fundo */
-    background-size: cover;          /* Faz com que a imagem cubra todo o elemento */
-    background-position: center;     /* Centraliza a imagem dentro do elemento */
-    background-repeat: no-repeat;    /* Evita a repetição da imagem */
-    margin-right: -90px;
+
+.title-three {
+
+     
+width: 1040px;
+height: 24px;
+font-family: 'Inconsolata';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+text-align: center;
+color: #E3646E;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
 }
 
-.project-card {
-   
+.title-four {
+
+    /* Como posso ajudar o seu negócio */
+
+width: 355px;
+height: 29px;
+font-family: 'Asap';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+text-align: center;
+color: #E2E4E9;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
 }

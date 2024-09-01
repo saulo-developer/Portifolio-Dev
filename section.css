@@ -1,0 +1,25 @@
+.container {
+    display: flex; /* Exibe os ícones em linha, lado a lado */
+    gap: 10px; /* Espaçamento entre os ícones */
+    justify-content: center; 
+    margin-top: 80px;
+}
+
+.container-two {
+    display: flex;                   /* Exibe as imagens em linha, lado a lado */
+    flex-wrap: wrap;                 /* Permite que as imagens quebrem para a linha seguinte se necessário */
+    justify-content: center;         /* Centraliza as imagens dentro da seção */
+    gap: 10px;                       /* Espaçamento entre as imagens */
+    padding: 20px;                   /* Espaçamento interno da seção */
+}
+
+.container-three {
+    display: flex;                   /* Exibe as imagens em linha, lado a lado */
+    flex-wrap: wrap;                 /* Permite que as imagens quebrem para a linha seguinte se necessário */
+    justify-content: center;         /* Centraliza as imagens dentro da seção */
+    gap: 10px;                       /* Espaçamento entre as imagens */
+    padding: 20px;                   /* Espaçamento interno da seção */
+    margin-top: 56px;
+} 
+
+
