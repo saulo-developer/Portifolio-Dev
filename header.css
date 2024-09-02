@@ -1,11 +1,12 @@
 
 body {
 
-    background-image: url(./assets/images/Intro.png);
+    
 }
 
 
 .grid-template-rows {
+    
     
     display: grid;
     grid-template-rows: auto; /* Garante que os elementos sejam empilhados verticalmente */
@@ -74,6 +75,10 @@ flex-grow: 0;
     
 }
 
+.intro-four {
+    margin-top: 128px;
+}
+
 .bold {
  
 /* Desenvolvedora Fullstack */
@@ -140,6 +145,7 @@ color:#E3646E;
 .vector-tag {
     margin-top: 100px;
     margin-left: 525px;
+    
 }
 
 
@@ -147,6 +153,7 @@ color:#E3646E;
 
 .intro-two {
 
+   
     margin-top: 90px;
     padding: 20px;            /* Espaçamento interno, se necessário */
     margin-top: 90px;
@@ -204,6 +211,7 @@ flex-grow: 0;
 
 .title-three {
 
+
      
 width: 1040px;
 height: 24px;
@@ -218,6 +226,7 @@ flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
+
 
 }
 
